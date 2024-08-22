@@ -1,0 +1,30 @@
+html{
+    font-size: 62.5%;
+    scroll-snap-type: mandatory;
+    box-sizing: border-box; 
+    font-family: Signika !important;
+    font-size: 1.2rem;
+    background-color: transparent;
+} /*adaptacion rem*/
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+a{
+    text-decoration: none !important;
+    color: black !important ;
+}
+p{
+    max-width: 90%;
+    margin: 5%;
+    text-align: left;
+}
+main{
+    background-image: url(media/watermark.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
